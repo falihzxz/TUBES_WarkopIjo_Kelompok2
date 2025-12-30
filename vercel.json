@@ -1,7 +1,6 @@
 {
   "buildCommand": "composer install && npm install && npm run build",
   "outputDirectory": "public",
-  "framework": "laravel",
   "env": {
     "APP_DEBUG": "false",
     "APP_ENV": "production"
