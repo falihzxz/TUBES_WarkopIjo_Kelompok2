@@ -1,0 +1,12 @@
+{
+  "buildCommand": "composer install && npm install && npm run build",
+  "outputDirectory": "public",
+  "framework": "laravel",
+  "php": {
+    "version": "8.2"
+  },
+  "env": {
+    "APP_DEBUG": "false",
+    "APP_ENV": "production"
+  }
+}
